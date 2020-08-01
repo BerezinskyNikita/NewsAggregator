@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  NewsAggregator
-//
-//  Created by fab1zon on 8/1/20.
-//  Copyright © 2020 Никита Березинский. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
