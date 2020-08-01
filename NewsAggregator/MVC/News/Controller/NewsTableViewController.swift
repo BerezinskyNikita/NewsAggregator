@@ -21,7 +21,6 @@ class NewsTableViewController: UITableViewController {
         return news.articles?.count ?? 0
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "newsCell", for: indexPath) as! NewsTableViewCell
 
@@ -33,9 +32,4 @@ class NewsTableViewController: UITableViewController {
         return cell
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 250
-    }
-
-
 }
